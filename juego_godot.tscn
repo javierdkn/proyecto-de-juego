@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://dcbrmuyhvw7ov"]
+
+[node name="Node2D" type="Node2D" unique_id=1664433981]
+position = Vector2(371, 197)
+
+[node name="Control" type="Control" parent="." unique_id=1034423409]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -45.027405
+offset_top = 12.0
+offset_right = 121.0
+offset_bottom = 178.69012
