@@ -1,12 +1,13 @@
 [gd_scene format=3 uid="uid://dcbrmuyhvw7ov"]
 
 [node name="Node2D" type="Node2D" unique_id=1664433981]
-position = Vector2(371, 197)
+position = Vector2(290, -386.00003)
+scale = Vector2(0.39699966, -3.2749293)
 
 [node name="Control" type="Control" parent="." unique_id=1034423409]
 layout_mode = 3
 anchors_preset = 0
-offset_left = -45.027405
-offset_top = 12.0
-offset_right = 121.0
-offset_bottom = 178.69012
+offset_left = -78.0
+offset_top = -105.0
+offset_right = 778.0274
+offset_bottom = -9.3098755
