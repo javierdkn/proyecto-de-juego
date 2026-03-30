@@ -6,6 +6,7 @@
 size = Vector2(124, 136)
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_08blv"]
+radius = 68.22206
 
 [node name="Node2D" type="Node2D" unique_id=1533598307]
 
