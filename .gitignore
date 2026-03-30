@@ -1,3 +1,8 @@
-# Godot 4+ specific ignores
+# Archivos generados por Godot
 .godot/
-/android/
+*.import
+export.cfg
+
+# Ignorar archivos que no son código fuente
+icon.svg
+icon.svg.import
