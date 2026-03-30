@@ -10,7 +10,7 @@ size = Vector2(124, 136)
 [node name="Node2D" type="Node2D" unique_id=1533598307]
 
 [node name="RigidBody2D" type="RigidBody2D" parent="." unique_id=1777290857]
-position = Vector2(-724, 211)
+position = Vector2(-585, -579)
 
 [node name="Sprite2D" type="Sprite2D" parent="RigidBody2D" unique_id=1544708989]
 position = Vector2(-1, 5)
@@ -20,10 +20,10 @@ texture = ExtResource("1_08blv")
 shape = SubResource("RectangleShape2D_08blv")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=583414546]
-position = Vector2(-727, 453)
+position = Vector2(-588, -337)
 
 [node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=1948533997]
-position = Vector2(-1048, 541)
+position = Vector2(-573, -174)
 
 [node name="Sprite2D" type="Sprite2D" parent="StaticBody2D" unique_id=986540859]
 modulate = Color(1, 0.24313726, 1, 1)
