@@ -5,8 +5,7 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_08blv"]
 size = Vector2(124, 136)
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_swjje"]
-size = Vector2(124, 123)
+[sub_resource type="CircleShape2D" id="CircleShape2D_08blv"]
 
 [node name="Node2D" type="Node2D" unique_id=1533598307]
 
@@ -21,7 +20,7 @@ texture = ExtResource("1_08blv")
 shape = SubResource("RectangleShape2D_08blv")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=583414546]
-position = Vector2(-722, 441)
+position = Vector2(-727, 453)
 
 [node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=1948533997]
 position = Vector2(-723, 657)
@@ -33,4 +32,4 @@ texture = ExtResource("1_08blv")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=1051547132]
 position = Vector2(-10, 14.5)
-shape = SubResource("RectangleShape2D_swjje")
+shape = SubResource("CircleShape2D_08blv")
