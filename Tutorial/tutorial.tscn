@@ -6346,3 +6346,13 @@ layer_0/tile_data = PackedInt32Array(2293759, 1769472, 3, 2359295, 1769472, 4, 2
 
 [node name="Personaje" parent="." unique_id=934571996 instance=ExtResource("2_8e1o1")]
 position = Vector2(-182, 179)
+
+[node name="Tom" type="CharacterBody2D" parent="." unique_id=1204498450]
+
+[node name="Sprite2D" type="Sprite2D" parent="Tom" unique_id=394397686]
+hframes = 4
+vframes = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Tom" unique_id=864962374]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Tom" unique_id=329050671]
