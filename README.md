@@ -1,22 +1,26 @@
-# Proyecto de Videojuego: Tom's Boss Rush (Godot Engine)
+# ⚔️ Tom: El Desafío de las 5 Fases
 
-Este es un proyecto académico de desarrollo de videojuegos en 2D, enfocado en el aprendizaje de la arquitectura de escenas y el uso de GDScript en **Godot Engine**.
+Bienvenido al repositorio oficial de **Tom**, un emocionante juego de acción en 2D desarrollado íntegramente en **Godot Engine**. Enfréntate a una serie de batallas épicas en un formato *Boss Rush* donde la precisión y la estrategia son clave.
 
-## 🎮 Descripción del Juego
-El juego presenta un sistema de combate contra 5 jefes únicos. El jugador controla a **Tom**, el protagonista, en una serie de 5 fases de batalla. El flujo del juego incluye:
-* Video introductorio.
-* Pantalla de carga.
-* Un selector de jefes (cuadro de espera) donde se desbloquean los desafíos.
+## 📖 Sinopsis
+El mundo ha sido tomado por 5 poderosos jefes. **Tom**, nuestro valiente protagonista, es el único capaz de restaurar el orden. A través de un sistema de fases desbloqueables, deberás derrotar a cada enemigo para avanzar al siguiente nivel de dificultad.
 
-## 🚀 Historia de GitHub y Control de Versiones
-**GitHub** es una plataforma basada en la nube que utiliza el sistema **Git**. Git fue creado en 2005 para permitir que los desarrolladores rastreen cambios en su código y colaboren de forma eficiente.
+## 🕹️ Características Principales
+* **Combate 2D Intenso:** Mecánicas pulidas inspiradas en los grandes clásicos del género.
+* **Sistema de Progresión:** Un "Cuadro de Espera" (Hub Central) donde gestionas tus combates y desbloqueas nuevos jefes.
+* **Cinemáticas:** Video introductorio que te sumerge en la historia desde el primer segundo.
+* **Fluidez:** Sistema de pantalla de carga optimizado para mantener la acción sin interrupciones.
 
-GitHub actúa como un "servidor central" donde guardamos nuestro código (repositorios). Gracias a esto, podemos revertir errores, trabajar en ramas (branches) y asegurar que los archivos de **Godot** (como el archivo `project.godot`) se mantengan sincronizados entre diferentes computadoras.
+## 🛠️ Arquitectura en Godot
+El proyecto está construido bajo una arquitectura **modular y orientada a escenas**, permitiendo que cada jefe y nivel funcione de forma independiente:
 
-### Cómo clonar este proyecto
-Si deseas descargar una copia local de este repositorio para trabajar en ella, sigue estos pasos:
+* **Escenas de Jefes (`scenes/bosses/`):** Cada jefe es un sistema autónomo con su propia lógica de ataque y animaciones.
+* **Controlador de Tom (`scenes/player/`):** Un nodo `CharacterBody2D` centralizado con toda la lógica de movimiento y combate.
+* **Gestión de Estados (`scripts/global/`):** Uso de **Singletons (Autoload)** para guardar el progreso de los jefes derrotados.
 
-1. Abre tu terminal o consola de comandos.
-2. Ejecuta el siguiente comando:
+## 🚀 Cómo Ejecutar el Proyecto
+Para probar el juego en tu entorno local:
+
+1. Clona el repositorio:
    ```bash
    git clone [https://github.com/javierdkn/proyecto-de-juego.git](https://github.com/javierdkn/proyecto-de-juego.git)
