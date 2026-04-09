@@ -4,5 +4,3 @@
 export.cfg
 
 # Ignorar archivos que no son código fuente
-icon.svg
-icon.svg.import
